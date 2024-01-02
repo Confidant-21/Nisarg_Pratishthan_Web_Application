@@ -4,6 +4,7 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 .desktop .div {
@@ -133,66 +134,6 @@
   object-fit: cover;
 }
 
-.desktop .rectangle-2 {
-  position: absolute;
-  width: 445px;
-  height: 445px;
-  top: 272px;
-  left: 460px;
-  background-color: #ffffff;
-  box-shadow: 2px 4px 13px 3px #00000040;
-}
-
-.desktop .rectangle-3 {
-  position: absolute;
-  width: 445px;
-  height: 445px;
-  top: 742px;
-  left: 460px;
-  background-color: #ffffff;
-  box-shadow: 2px 4px 13px 3px #00000040;
-}
-
-.desktop .rectangle-4 {
-  position: absolute;
-  width: 445px;
-  height: 445px;
-  top: 272px;
-  left: 920px;
-  background-color: #ffffff;
-  box-shadow: 2px 4px 13px 3px #00000040;
-}
-
-.desktop .rectangle-5 {
-  position: absolute;
-  width: 445px;
-  height: 445px;
-  top: 742px;
-  left: 920px;
-  background-color: #ffffff;
-  box-shadow: 2px 4px 13px 3px #00000040;
-}
-
-.desktop .rectangle-6 {
-  position: absolute;
-  width: 445px;
-  height: 445px;
-  top: 272px;
-  left: 0;
-  background-color: #ffffff;
-  box-shadow: 2px 4px 13px 3px #00000040;
-}
-
-.desktop .rectangle-7 {
-  position: absolute;
-  width: 445px;
-  height: 445px;
-  top: 742px;
-  left: 0;
-  background-color: #ffffff;
-  box-shadow: 2px 4px 13px 3px #00000040;
-}
-
 .desktop .text-wrapper-6 {
   top: 126px;
   left: 580px;
@@ -254,6 +195,48 @@
   box-shadow: 2px 4px 13px 3px #00000040;
 }
 
+.text-outer-div{
+  position: absolute;
+  margin-left:20px;
+  top: 190px;
+  height: 30px;
+  width: 100%;
+  /* border:1px solid black; */
+  font-size: 20px;
+  font-family: "Gelasio", Helvetica;
+}
+
+.text-innter-div{
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top:8px;
+  padding-bottom:8px;
+  background-color: rgba(189, 243, 186, 0.334);
+  border: 1px solid rgba(0, 0, 0, 0.187);
+  border-radius: 25px;
+  letter-spacing:2px;
+}
+
+.outer-rectangle{
+  position: absolute;
+  /* top: 272px; */
+  top: 230px;
+  height: 690px;
+  width: 100%;
+  /* border:1px solid black; */
+}
+
+.myRectangle-1 {
+  margin-left:20px;
+  margin-top:20px;
+  width: 315px;
+  height: 315px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 13px 3px #00000040;
+  float: left;
+}
+
 .img-shadow{
   color:#000000;
 }
@@ -280,3 +263,4 @@
   
   
 }
+
